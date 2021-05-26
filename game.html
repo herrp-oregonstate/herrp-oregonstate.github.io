@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="gameScript.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Games</title>
+</head>
+
+<body>
+
+    <div class="topMenu">
+        <a class="menuItem" href="index.html">Home</a>
+        <a class="menuItem" href="movie.html">Movie</a>
+        <a class="menuItem" href="game.html">Game</a>
+        <a class="menuItem" href="about.html">About</a>
+    </div>
+    <br>
+
+    <div>
+        <form>
+            <input type="text" id="gameQuery" class="searchBar" placeholder="Search for games">
+            <button type="submit" id="gameSubmit" class="searchButton">Submit</button>
+        </form>
+        <div id="searchResultsContainer" style="width:100%; height:150px; line-height:normal; overflow:auto;">
+        </div>
+    </div>
+
+    <div class="userListContainer">
+        <table id="userList">
+            <thead>
+                <th>Poster</th>
+                <th>Title</th>
+                <th>Overview</th>
+                <th>Metacritic</th>
+                <th></th>
+            </thead>
+        </table>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+body {
+    background-color: grey;
+}
+
+img {
+    max-width: 300px;
+    height:fit-content
+}
+
+table {
+    border-style: solid;
+    width: 100%;
+}
+
+td,
+th {
+  border-style: solid;
+}
+
+.homeInfo {
+    margin: auto;
+    text-align: center;
+}
+
+.homeHeader {
+    margin: auto;
+    text-align: center;
+}
+
+.homeSection {
+    margin: auto;
+    text-align: center;
+}
+
+
+.topMenu {
+    background-color: aliceblue;
+    box-sizing: border-box;
+    /* justify-content: center;    */
+    /* align-items: center; */
+}
+
+.menuItem {
+    /* margin-right: 10%; */
+    margin-left: 5%;
+    font-size: 25px;
+}
+
+.searchBar {
+    width: 95%;
+    height: 30px;
+}
+
+.searchButton {
+    width: 4%;
+    height: 38px;
+    }
+    
+.carousel-inner img {
+    padding-top: 10px;
+    margin: auto;
+}
+
+.carousel-caption {
+    color:white;
+    bottom: -35px;
+}

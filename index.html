@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>My Homepage</title>
+</head>
+
+<body>
+    <div class="topMenu">
+        <a class="menuItem" href="index.html">Home</a>
+        <a class="menuItem" href="movie.html">Movie</a>
+        <a class="menuItem" href="game.html">Game</a>
+        <a class="menuItem" href="about.html">About</a>
+    </div>
+    <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+                <img src="http://image.tmdb.org/t/p/original/or06FN3Dka5tukK1e9sl16pB3iy.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>
+                        Picture from TheMovieDB
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="https://media.rawg.io/media/screenshots/bf7/bf76ba791262ca3a3580fc776bdecb87.jpg"
+                    class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>
+                        Picture from RAWG.
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="more.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>
+                        I made this in MS Paint.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+        <!-- <a class="prev" onclick="moveSlide(-1)">❮</a>
+        <a class="next" onclick="moveSlide(1)">❯</a> -->
+
+    </div>
+    <br>
+
+    <section id="homeInfo">
+        <h1 style="text-align: center;">Welcome to my media tracking website!</h1>
+        <section class="homeSection">
+            <h4>What can you do on this website?</h4>
+            <p>Currently, the user is able to search for movies and games on the Movies and Games page. After searching
+                for a movie or game, the user is able to
+                add it to a list. The list will contain a poster for the movie or game, the title, and a general
+                overview of the media. The user is also able to
+                remove it from their list if needed. The website is very barebones at the moment. For more information
+                about me, the developer, and information
+                about possible future features, please check the About page.
+            </p>
+        </section>
+        <section class="homeSection">
+            <h4>Where to find my project requirements:</h4>
+            <ul>
+                <li>This is the home page. The three subpages are the Movies, Games, and the About page.</li>
+                <li>The carousel is at the top of the homepage.</li>
+                <li>A GET request will be sent to TheMoviesDB or RAWG after utilizing the search form on the Movies or
+                    Games page.</li>
+                <li>The results of the search will be returned in a scroll box at the top of the Movies or Games page.
+                </li>
+                <li>The search results are stored as an unordered list. This list is also an unordered list.</li>
+                <li>A Metacritic link will appear to take the user to an outside webpage after adding a game to their
+                    list.</li>
+                <li>There is a download button at the bottom of the About page to download my code.</li>
+            </ul>
+        </section>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
